@@ -1,0 +1,36 @@
+body {
+  font-family: arial;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+// banner 
+.banner {
+  height: 400px;
+  img {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+}
+
+// Autor icons 
+.autor-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  .icons {
+    font-size: 1.3rem;
+    .fa-bookmark {
+      margin-right: 15px;
+    }
+  }
+}
